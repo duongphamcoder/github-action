@@ -15,8 +15,8 @@ jobs:
         working-directory: practices/practice-one
 
     steps:
-      - name: Checkout action v4
-        uses: actions/checkout@v4
+      - name: Checkout action v3
+        uses: actions/checkout@v3
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
