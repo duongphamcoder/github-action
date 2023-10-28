@@ -25,3 +25,6 @@ jobs:
 
       - name: Show list files inside practices
         run: ls
+
+      - name: Install Vercel CLI
+        run: pnpm install --global vercel@latest
