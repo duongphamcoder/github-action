@@ -21,4 +21,6 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 8.6.7
-      - run: pnpm -v
+
+      - run: cd practice/practice-one
+      - run: ls
