@@ -20,5 +20,6 @@ jobs:
         with:
           version: 8.6.7
 
-      - run: ls
-        working-directory: practices
+      - name: Show list files inside practices
+        run: ls
+          working-directory: practices
