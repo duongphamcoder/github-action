@@ -15,12 +15,11 @@ jobs:
       - name: Checkout action v4
         uses: actions/checkout@v4
         with:
-          sparse-checkout: .
+          sparse-checkout: practices/practice-one
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8.6.7
 
-      - run: cd practice/practice-one
       - run: ls
